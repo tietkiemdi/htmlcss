@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.container {
+    width: 1140px;
+    background-color: rgb(141, 135, 135);
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    height: 100px;
+}
+
+.name {
+    background-color: blanchedalmond;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image img {
+    height: 200px;
+
+}
+
+.image {
+}
+
+.infor {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.habbit {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
